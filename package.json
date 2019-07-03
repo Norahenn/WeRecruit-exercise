@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Norahenn/WeRecruit-exercise#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
     "sass": "^1.22.2"
   }
 }
