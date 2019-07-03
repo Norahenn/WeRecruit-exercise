@@ -1,0 +1,24 @@
+{
+  "name": "werecruit-exercise",
+  "version": "1.0.0",
+  "description": "Refonte des pages de Landings et Tarifs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "sass --watch ./assets/scss:./assets/css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Norahenn/WeRecruit-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Norahenn/WeRecruit-exercise/issues"
+  },
+  "homepage": "https://github.com/Norahenn/WeRecruit-exercise#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "sass": "^1.22.2"
+  }
+}
