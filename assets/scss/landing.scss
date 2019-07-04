@@ -1,1 +1,14 @@
 @import "main.scss";
+
+//Backgrounds
+.blue-shapes-bg{
+    width: 100%;
+    // background: url(./assets/images/Landing_background.svg);
+    background: url(../images/Landing_background.svg) no-repeat;
+    background-size: cover;
+    
+}
+
+.w-5vw{
+    width: 10rem;
+}

@@ -5,7 +5,7 @@
 ******************/
 
 // Fonts
-$font-stack: 'Open Sans', sans-serif;
+$main-font: 'Open Sans', sans-serif;
 
 // Colors
 $dark-blue: #4667A9;
@@ -18,6 +18,7 @@ $lightish-gray: #7C7C7C;
 $gray: #646464;
 $dark-gray: #4A4347;
 
+$green: #28E590;
 // Gradients
 $linear-vertical-blue-gradient: linear-gradient(180deg, $translucid-blue 0%, $dark-blue 100%);
 $linear-horizontal-blue-gradient : linear-gradient(90deg, $translucid-blue 0%, $dark-blue 100%);
@@ -26,10 +27,101 @@ $linear-horizontal-blue-gradient : linear-gradient(90deg, $translucid-blue 0%, $
         Style
 ******************/
 
-// Style reset
+// Style reset -> Boostrap seems to already have one anyway
 * {
-    margin: 0;
+    text-decoration: none;
+    font-family: $main-font!important;
+    list-style-type: none;
     padding: 0;
+    margin: 0;
+}
+*:hover{
+        text-decoration: none;
+}
+.w-100vw{
+        width: 100vw;
+}
+.w-600px{
+        width: 600px;
+}
+.p-20v{
+        padding: 20vh 20vw;
+}
+navbar>ul>li{
+        padding: 0 12px;
+        display: inline-block;
+}
+.col-md{
+        margin: 8px 12px;
+}
+.rounded-blue-border-input{
+        width: 50vw;
+        padding: 8px 12px;
+        border: 1.5px solid $dark-blue;
+        border-radius: 40px;
+}
+.shadow{
+        box-shadow: 0px 10px 25px rgba(90, 90, 90, 0.25);
+}
+// Text
+a.text-light:hover{
+        color:black!important;
+}
+.text-dark-blue{
+        color: $dark-blue;
+}
+.text-blue{
+        color: $blue;
+}
+.text-light-gray{
+        color: $light-gray;
+}
+.text-lightish-gray{
+        color: $lightish-gray;
+}
+.text-gray{
+        color: $gray;
+}
+.text-dark-gray{
+        color: $dark-gray;
+}
+
+// Buttons
+.white-outlined-rounded-btn{
+        border: 1.5px solid white;
+        border-radius: 40px;
+        color: white;
+}
+.white-outlined-rounded-btn:hover{
+        background: $linear-vertical-blue-gradient;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border: 1.5px solid white;
+}
+.blue-outlined-rounded-btn{
+        border: 1.5px solid $dark-blue;
+        border-radius: 40px;
+        color: $dark-blue;
+}
+
+.blue-gradient-outlined-btn{
+        // border: 1.5px solid $linear-vertical-blue-gradient;
+        // border-radius: 40px;
+        // color: $linear-vertical-blue-gradient;
+        background: $linear-vertical-blue-gradient;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.blue-gradient-btn{
+        background: $linear-horizontal-blue-gradient;
+        border-radius: 40px;
+}
+
+.green-btn{
+        background: $green;
+        border-radius: 40px;
+        color: white;
 }
 
 /******************
