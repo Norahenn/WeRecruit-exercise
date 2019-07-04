@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "sass --watch ./assets/scss:./assets/css --style compressed"
+    "node-sass": "node-sass -w ./assets/scss/ -o ./assets/css/ --output-style compressed"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,6 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
-    "sass": "^1.22.2"
+    "node-sass": "^4.12.0"
   }
 }
