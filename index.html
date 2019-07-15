@@ -5,140 +5,168 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Un logiciel de recrutement simple, complet et intuitif | We Recruit</title>
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.theme.default.min.css" />
     <link rel="icon" href="./assets/images/logos/werecruit_cropped-avatar-bluebackground-32x32.png">
     <link rel="stylesheet" type="text/css" href="./assets/css/landing.css"/>
-    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
 </head>
 
 <body>
-    <div></div>
-    <div class="blue-shapes-bg">
-        <header class="text-uppercase">
-            <navbar class="d-flex justify-content-between align-items-center p-3">
-                <img class="w-5vw" src="./assets/images/logos/werecruit_white.svg" alt="Logo de We Recruit">
+    <div class="page">
+        <div></div>
+        <header class="text-uppercase bg-shape-header">
+            <navbar id="navbar" class="fixed-top d-flex justify-content-between align-items-center p-3">
+                <img id="logo" class="w-10-rem" src="./assets/images/logos/werecruit_white.svg" alt="Logo de We Recruit">
                 <ul class="mb-0 d-flex justify-content-arounda align-items-center text-center">
-                    <li class=>
-                        <a class="text-green-hover text-light" href="#">accueil</a>
+                    <li>
+                        <a class="" href="#">accueil</a>
                     </li>
-                    <li class=>
-                        <a class="text-light" href="#">fonctionnalités</a>
+                    <li>
+                        <a class="" href="#">fonctionnalités</a>
                     </li>
-                    <li class=>
-                        <a class="text-light" href="./assets/html/tarifs.html">tarifs</a>
+                    <li>
+                        <a class="" href="./tarifs.html">tarifs</a>
                     </li>
-                    <li class=>
-                        <a class="text-light" href="#">blog</a>
+                    <li>
+                        <a class="" href="#">blog</a>
                     </li>
-                    <li class=>
-                        <a class="btn btn-sm white-outlined-rounded-btn" href="#">demo</a>
+                    <li>
+                        <a class="btn btn-sm btn-outlined-rounded-white" href="#"><span>demo</span></a>
                     </li>
-                    <li class=>
-                        <a class="btn btn-sm green-btn" href="#">se connecter</a>
+                    <li>
+                        <a class="btn btn-sm btn-green" href="#">se connecter</a>
                     </li>
                 </ul>
             </navbar>
-            <div class="p-20v">
-                <button type="button demo-redirection" class="d-block m-auto text-uppercase btn btn-lg white-outlined-rounded-btn">demo</button>
+            <nav id="burger-menu">
+                <a href="#" class="burger-icon">
+                    <span class="menu"></span>
+                </a>
+                  
+                <ul class="sub-menu">
+                    <li id="close-menu">
+                        <span class="menu"></span>
+                    </li>
+                    <li>
+                        <a class="" href="#">accueil</a>
+                    </li>
+                    <li>
+                        <a class="" href="#">fonctionnalités</a>
+                    </li>
+                    <li>
+                        <a class="" href="./tarifs.html">tarifs</a>
+                    </li>
+                    <li>
+                        <a class="" href="#">blog</a>
+                    </li>
+                    <li>
+                        <a class="" href="#">demo</a>
+                    </li>
+                    <li>
+                        <a class="" href="#">se connecter</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="h-60-vh d-flex justify-content-center align-items-center m-auto">
+                <a id="scroll-navbar" class="d-block text-uppercase btn btn-lg btn-outlined-rounded-white demo-redirection"><span>demo</span></a>
             </div>
         </header>
 
-        <section>
-            <h1 class="text-dark-blue font-weight-bold">Logiciel de recrutement</h1>
-            <h2 class="text-blue font-weight-bold">tout-en-un, adapté aux PME et ETI</h2>
-            <p class="text-light-gray">Diffusez vos offres sur plus de 25 sites d'emploi et gérez vos candidatures au même endroit</p>
-        </section>
+        <div class="bg-white">
+            <section class="w-60-perc mx-auto mb-5">
+                <h1 class="text-dark-blue font-weight-bold">Logiciel de recrutement</h1>
+                <h2 class="text-blue font-weight-bold">tout-en-un, adapté aux PME et ETI</h2>
+                <p class="text-light-gray">Diffusez vos offres sur plus de 25 sites d'emploi et gérez vos candidatures au même endroit</p>
+            </section>
+        </div>
 
-        <section>
-            <h2 class="text-dark-blue">We Recruit, un logiciel de recrutement et multidiffusion tout-en-un</h2>
-            <div class="row w-100vw">
-                <div class="col-md p-5 text-center shadow rounded bg-light">
-                    <img class="pb-4" src="./assets/images/icons/star.svg" alt="Valorisant">
-                    <p class="text-justify text-gray">Valorisez l'image de votre entreprise auprès de vos candidats et ce sur plus de 25 sites en un clic.</p>
+        <div class="bg-shape-section mt-5">
+            <section class="mx-auto mt-5 w-90-perc text-center py-5">
+                <h2 class="text-dark-blue py-5">We Recruit, un logiciel de recrutement et multidiffusion tout-en-un</h2>
+                <div class="mt-5 row w-100vw justify-content-center">
+                    <div class="maxw-300-px col-md p-5 text-center shadow rounded bg-white">
+                        <img class="pb-4" src="./assets/images/icons/star.svg" alt="Valorisant">
+                        <p class="text-justify text-gray">Valorisez l'image de votre entreprise auprès de vos candidats et ce sur plus de 25 sites en un clic.</p>
+                    </div>
+                    <div class="maxw-300-px col-md p-5 text-center shadow rounded bg-white">
+                        <img class="pb-4" src="./assets/images/icons/time_saving.svg" alt="Gain de Temps">
+                        <p class="text-justify text-gray">Gagnez du temps sur votre processus de recrutement.</p>
+                    </div>
+                    <div class="maxw-300-px col-md p-5 text-center shadow rounded bg-white">
+                        <img class="pb-4" src="./assets/images/icons/rating.svg" alt="Facile d'utilisation">
+                        <p class="text-justify text-gray">Gérez facilement vos candidature, les échanges avec les candidats et la diffusion de vos offres.</p>
+                    </div>
                 </div>
-                <div class="col-md p-5 text-center shadow rounded bg-light">
-                    <img class="pb-4" src="./assets/images/icons/time_saving.svg" alt="Gain de Temps">
-                    <p class="text-justify text-gray">Gagnez du temps sur votre processus de recrutement.</p>
-                </div>
-                <div class="col-md p-5 text-center shadow rounded bg-light">
-                    <img class="pb-4" src="./assets/images/icons/rating.svg" alt="Facile d'utilisation">
-                    <p class="text-justify text-gray">Gérez facilement vos candidature, les échanges avec les candidats et la diffusion de vos offres.</p>
-                </div>
-            </div>
-        </section>
+            </section>
+    
+            <!-- Will be generated automatically through js -->
+            <section id="testimonials" class="clients my-5 py-5">
+                    <div id="carousel" class="gallery owl-carousel owl-theme">
+                    </div>
+            </section>
+        </div>
 
-        <!-- Will be generated automatically through js -->
-        <section>
-            <div class="rounded bg-light">
-                <img src="" alt="">
-                <h3 class="text-uppercase text-light">Dorothée Arles</h3>
-                <h4 class="text-blue"><a href="">Dolmen Technologies</a></h4>
-                <blockquote class="blockquote">
-                    <p class="text-lightish-gray">
-                        We Recruit, c'est le logiciel de recrutement simple et pragmatique qui répond à nos besoins, que ce soit pour gérer nos candidatures ou travailler en équipe.
-                    </p>
-                </blockquote>
-            </div>
-        </section>
-
-        <section>
-            <div class="rounded bg-light shadow w-600px text-center">
-                <h2 class="text-dark-blue text-uppercase">Tarif</h2>
-                <h3>A partir de 99€ HT par mois*</h3>
-                <button class=" text-uppercase btn blue-gradient-outlined-btn">demo</button>
-                <ul>
-                    <li class="m-3 d-flex align-items-center text-center">
-                        <img src="./assets/images/icons/checked.svg" alt="Validé">
+        <section class="mt-5 px-5 py-3 row mx-auto flex-nowrap justify-content-around text-center overflow-hidden">
+            <div class="maxw-300-px py-3 px-4 col-12 col-sm-6 col-md-5 rounded bg-white shadow text-center">
+                <h2 class="m-4 text-dark-blue text-uppercase">Tarif</h2>
+                <h3 class="m-2 text-dark-gray">A partir de 99€ HT par mois*</h3>
+                <button class="m-3 text-uppercase btn-lg btn-outlined-rounded-gradient-blue"><span class="text-gradient-blue">demo</span></button>
+                <ul class="m-3 my-4 text-dark-gray">
+                    <li class="m-3 d-flex align-items-center text-left">
+                        <img class="mr-3 check" src="./assets/images/icons/checked.svg" alt="Validé">
                         <p class="mb-0">Un prix fixe pour l'année</p>
                     </li>
-                    <li class="m-3 d-flex align-items-center text-center">
-                        <img src="./assets/images/icons/checked.svg" alt="Validé">
+                    <li class="m-3 d-flex align-items-center text-left">
+                        <img class="mr-3 check" src="./assets/images/icons/checked.svg" alt="Validé">
                         <p class="mb-0">Diffusion illimitée d'annonces</p>
                     </li>
-                    <li class="m-3 d-flex align-items-center text-center">
-                        <img src="./assets/images/icons/checked.svg" alt="Validé">
+                    <li class="m-3 d-flex align-items-center text-left">
+                        <img class="mr-3 check" src="./assets/images/icons/checked.svg" alt="Validé">
                         <p class="mb-0">Utilisateurs illimités</p>
                     </li>
-                    <li class="m-3 d-flex align-items-center text-center">
-                        <img src="./assets/images/icons/checked.svg" alt="Validé">
+                    <li class="m-3 d-flex align-items-center text-left">
+                        <img class="mr-3 check" src="./assets/images/icons/checked.svg" alt="Validé">
                         <p class="mb-0">Support prioritaire</p>
                     </li>
-                    <li class="m-3 d-flex align-items-center text-center">
-                        <img src="./assets/images/icons/checked.svg" alt="Validé">
+                    <li class="m-3 d-flex align-items-center text-left">
+                        <img class="mr-3 check" src="./assets/images/icons/checked.svg" alt="Validé">
                         <p class="mb-0">Formation en ligne ou sur place</p>
                     </li>
                 </ul>
-                <p>Idéal si vous recrutez tout au long de l'année et développez votre marque employeur</p>
-                <p>* Tarif pour un abonnement annuel. Un abonnement mensuel est également disponible</p>
+                <p class="text-gray">Idéal si vous recrutez tout au long de l'année et développez votre marque employeur</p>
+                <p class="mt-5 text-lightish-gray"><small>* Tarif pour un abonnement annuel. Un abonnement mensuel est également disponible</small></p>
             </div>
-            <!-- Might actually be put in css as background -->
-            <img class="illustration" src="./assets/images/illustrations/undraw_preferences_uuo2(2)(1).svg" alt="Illustration de sélection">
+            <img class="illustration illustration-prices position-relative" src="./assets/images/illustrations/undraw_preferences_uuo2_1.svg" alt="Illustration de sélection">
         </section>
 
-        <section>
-            <!-- Same as img above -->
-            <img class="illustration" src="./assets/images/illustrations/undraw_online_discussion_5wgl(1).svg" alt="Illustration de messagerie">
-            <div>
-                <button class="btn">
-                    <p>Contactez-nous</p>
-                    <img src="" alt="Enveloppe">
-                </button>
-                <button class="btn">
-                    <p>Appelez-nous</p>
-                    <img src="" alt="Téléphone">
-                </button>
+        <section class="m-5">
+            <div class="row my-5">
+                <img class="illustration illustration-left col-md-7" src="./assets/images/illustrations/undraw_online_discussion_5wgl(1).svg" alt="Illustration de messagerie">
+                <div class="col-md m-auto">
+                    <button class="mx-auto w-30-perc minw-180-px btn my-4 d-flex justify-content-around align-items-center btn-outlined-rounded-blue">
+                        <p class="mb-0">Contactez-nous</p>
+                        <img class="" src="./assets/images/icons/letter.svg" alt="Enveloppe">
+                    </button>
+                    <button class="mx-auto w-30-perc minw-180-px btn my-4 d-flex justify-content-around align-items-center btn-outlined-rounded-blue">
+                        <p class="mb-0">Appelez-nous</p>
+                        <img class="" src="./assets/images/icons/phone.svg" alt="Téléphone">
+                    </button>
+                </div>
             </div>
-            <div class="mx-5">
-                <h3 class="text-dark-blue">Newsletter</h3>
-                <form class="d-sm-flex justify-content-center" action="">
-                    <input class="m-3 rounded-blue-border-input" type="text" name="" id="" placeholder="Entrez votre adresse email">
-                    <button class="m-3 block btn text-light blue-gradient-btn" type="submit">S'inscrire</button>
-                </form>
+            <div class="row">
+                <div class="col-12 m-auto d-flex flex-column justify-content-center">
+                    <h3 class="text-dark-blue">Newsletter</h3>
+                    <form class="d-sm-flex" action="">
+                        <input class="my-3 mr-3 rounded-blue-border-input" type="email" name="" id="" placeholder="Entrez votre adresse email">
+                        <button class="m-3 block btn text-light btn-gradient-blue" type="submit">S'inscrire</button>
+                    </form>
+                </div>
             </div>
         </section>
 
-        <footer class="text-light">
-            <section>
-                <div>
+        <footer class="text-light bg-shape-footer text-center p-footer">
+            <section class="row pt-5">
+                <div class="col-sm">
                     <h4>A propos</h4>
                     <ul>
                         <li>
@@ -158,7 +186,7 @@
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div class="col-sm">
                     <h4>Produits</h4>
                     <ul>
                         <li>
@@ -178,7 +206,7 @@
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div class="col-sm">
                     <h4>Ressources</h4>
                     <ul>
                         <li>
@@ -189,7 +217,7 @@
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div class="col-sm">
                     <h4>Liens utiles</h4>
                     <ul>
                         <li>
@@ -205,22 +233,83 @@
                 </div>
             </section>
 
-            <div>
-                <a href="">
-                    <img src="" alt="Logo Facebook">
+            <div class="mt-4 mb-5 social-media-container">
+                <a href="#">
+                    <img class="w-3-rem social-media-icon" src="./assets/images/icons/facebook_icon_white.svg" alt="Logo Facebook">
                 </a>
-                <a href="">
-                    <img src="" alt="Logo Linkedin">
+                <a href="#">
+                    <img class="w-3-rem social-media-icon" src="./assets/images/icons/linkedin_icon_white.svg" alt="Logo Linkedin">
                 </a>
-                <a href="">
-                    <img src="" alt="Logo Twitter">
+                <a href="#">
+                    <img class="w-3-rem social-media-icon" src="./assets/images/icons/twitter_icon_white.svg" alt="Logo Twitter">
                 </a>
             </div>
 
-            <p>Copyright © WeRecruit - 2017.</p>
+            <p class="mb-0">Copyright © WeRecruit - 2017.</p>
         </footer>
+        <div class="video h-55-vh overflow-hidden">
+            <video src="./assets/video/werecruit_crop_video.mp4" autoplay muted loop></video>
+        </div>
 
     </div>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/owl.carousel/dist/owl.carousel.min.js">
+    </script>
+    <script>
+        
+        $(".burger-icon").click(function(){
+            $("#burger-menu").addClass("active");
+        });
+        $("#close-menu").click(function(){
+            $("#burger-menu").removeClass("active");
+        })
+        $(document).ready(function(){
+            var testimonialJson = $.getJSON("./assets/json/clients_comments.json", function(json){
+                for(testimonial in json){
+                    $("#carousel").append("<div class='item'><figure class='m-auto testimonial-card'><div class='author'><img class='' src='"+json[testimonial]["img-src"]+"'><p class='special-h5 text-white'>"+json[testimonial]["name"]+"</p><span><a href='"+json[testimonial]["company-link"]+"'>"+json[testimonial]["company"]+"</a></span></div><blockquote class='card-3 text-lightish-gray'>"+json[testimonial]["comment"]+"</blockquote></figure></div>")
+                }
+            }).then(function(){
+                var owl = $('.owl-carousel');
+                owl.owlCarousel({
+                    items:6,
+                    margin: 15,
+                    autoWidth: true,
+                    center: true,
+                    mouseDrag: true,
+                    touchDrag: true,
+                    loop:true,
+                    autoplay:true,
+                    autoplaySpeed: 3000,
+                    autoplayHoverPause:true
+                });
+            })
+            
+            let navbar = $('#navbar')
+            $(document).scroll(function(){
+                let changeStyleAt = $('#scroll-navbar')
+                let offset = changeStyleAt.offset()
+                let scrollStart = $(this).scrollTop();
+                if(scrollStart > offset.top) {
+                    navbar.addClass('scrolled shadow')
+                    $('#logo').attr('src', './assets/images/logos/werecruit_horizontal-RGB-coul.svg')
+                } else {
+                    navbar.removeClass('scrolled shadow')
+                    $('#logo').attr('src', './assets/images/logos/werecruit_white.svg')
+                }
+            });
+            
+            navbar.mouseover(function(){
+                navbar.addClass('hover shadow')
+                $('#logo').attr('src', './assets/images/logos/werecruit_horizontal-RGB-coul.svg')
+            })
+            navbar.mouseout(function(){
+                navbar.removeClass('hover shadow')
+                if(navbar.hasClass('scrolled') == false){
+                    $('#logo').attr('src', './assets/images/logos/werecruit_white.svg')
+                }
+            })
+        });
+    </script>
 </body>
 
 </html>

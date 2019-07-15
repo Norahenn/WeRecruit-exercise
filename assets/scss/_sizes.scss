@@ -1,0 +1,100 @@
+// Note for a later project->
+// Better use the unit before the number
+// => Less to type
+.w {
+    &-345 {
+        &-px {
+            width: 380px;
+        }
+    }
+
+    &-300 {
+        &-px {
+            width: 300px;
+        }
+    }
+
+    &-100 {
+        &-vw {
+            width: 100vw;
+        }
+    }
+
+    &-90 {
+        &-perc {
+            width: 90%;
+        }
+    }
+
+    &-60 {
+        &-perc {
+            width: 60%;
+        }
+    }
+
+    &-35 {
+        &-perc {
+            width: 35%;
+        }
+    }
+
+    &-30 {
+        &-perc {
+            width: 30%;
+        }
+    }
+
+    &-10 {
+        &-rem {
+            width: 10rem;
+        }
+    }
+
+    &-3 {
+        &-rem {
+            width: 3rem;
+        }
+    }
+}
+
+.h {
+    &-60 {
+        &-vh {
+            height: 60vh;
+        }
+    }
+
+    &-55 {
+        &-vh {
+            height: 55vh;
+        }
+    }
+}
+
+.maxw {
+    &-380 {
+        &-px {
+            max-width: 380px !important;
+        }
+    }
+
+    &-300 {
+        &-px {
+            max-width: 300px;
+        }
+    }
+}
+
+.minw {
+    &-280 {
+        &-px {
+            min-width: 280px;
+        }
+    }
+
+    &-180 {
+        &-px {
+            min-width: 180px;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "img-src" : "./assets/images/photos/pellois_candidature-expert-comptable.png",
+        "name" : "Gwénaëlle Pellois",
+        "company" : "Capeos Conseils",
+        "company-link" : "https://careers.werecruit.io/capeos-conseils",
+        "comment" : "We Recruit est un outil innovant et collaboratif qui simplifie l’échange entre les différents acteurs de l'entreprise concernés par le processus de recrutement."
+    },
+    {
+        "img-src" : "./assets/images/photos/Delgrange-koezio-outil-collaboratif.png",
+        "name" : "Bertrand Delgrange",
+        "company" : "Koezio",
+        "company-link" : "https://careers.werecruit.io/koezio",
+        "comment" : "C’est une solution simple et efficace qui prend en charge l’ensemble de notre processus de recrutement, de la diffusion multisite à l’embauche du bon profil."
+    },
+    {
+        "img-src" : "./assets/images/photos/Meril-gestion-candidatures-sponatnees.png",
+        "name" : "Olivier Méril",
+        "company" : "Mediaveille",
+        "company-link" : "https://careers.werecruit.io/mediaveille",
+        "comment" : "Nous sommes pleinement satisfaits par cet outil de recrutement, autant pour la diffusion de nos offres d’emploi que pour le traitement des CV que nous recevons."
+    },
+    {
+        "img-src" : "./assets/images/photos/Arles-temoignages-we-recruit.png",
+        "name" : "Dorothée Arles",
+        "company" : "Dolmen Technologies",
+        "company-link" : "https://careers.werecruit.io/dolmen",
+        "comment" : "We Recruit, c’est le logiciel de recrutement simple et pragmatique qui répond à nos besoins, que ce soit pour gérer nos candidatures ou travailler en équipe."
+    },
+    {
+        "img-src" : "./assets/images/photos/Bourdon-gestion-cvtheque.png",
+        "name" : "Annaëlle Bourdon",
+        "company" : "Aiguillon Construction",
+        "company-link" : "https://careers.werecruit.io/aiguillon-construction-sa",
+        "comment" : "We Recruit est un outil facile à prendre en main et qui simplifie notre processus de recrutement de la diffusion de l’annonce à l’intégration du collaborateur."
+    },
+    {
+        "img-src" : "./assets/images/photos/Bertou-logiciel-recrutement-simple.png",
+        "name" : "Hugo Berthou",
+        "company" : "BCM Cosmétique",
+        "company-link" : "https://careers.werecruit.io/bcm-cosmetique",
+        "comment" : "We Recruit est un outil simple, efficace et adaptable. Sa dimension collaborative permet de gérer facilement les recrutements avec les managers de nos équipes."
+    }
+]

@@ -1,0 +1,37 @@
+.bg {
+    &-shape {
+        &-footer {
+            width: 100%;
+            background: url(../images/background/shape_footer.svg) no-repeat;
+            background-position-y: bottom;
+            background-size: 100% 100%;
+        }
+
+        &-header {
+            width: 100%;
+            background: url(../images/background/shape_header_2.svg) no-repeat;
+            background-position-y: top;
+            background-size: 100% 100%;
+        }
+
+        &-section {
+            width: 100%;
+            background: url(../images/background/shape_section_1.svg) no-repeat;
+            background-position-y: center;
+            background-size: 100% 100%;
+
+            &-no-bg {
+                background: url(../images/background/shape_section_no-bg.svg) no-repeat;
+                width: 100%;
+                background-position-y: center;
+                background-size: 100% 100%;
+                padding-top: 20vh;
+                padding-bottom: 20vh;
+            }
+        }
+    }
+
+    &-white {
+        background-color: white;
+    }
+}

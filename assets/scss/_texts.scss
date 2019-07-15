@@ -1,0 +1,43 @@
+a.text-light:hover {
+    color: white !important;
+}
+
+.text {
+    &-dark {
+        &-blue {
+            color: $dark-blue;
+        }
+
+        &-gray {
+            color: $dark-gray;
+        }
+    }
+
+    &-light {
+        &-gray {
+            color: $light-gray;
+        }
+    }
+
+    &-lightish {
+        &-gray {
+            color: $lightish-gray;
+        }
+    }
+
+    &-blue {
+        color: $blue;
+    }
+
+    &-gray {
+        color: $gray
+    }
+
+    &-gradient {
+        &-blue {
+            background: $linear-vertical-blue-gradient;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+}

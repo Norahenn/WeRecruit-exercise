@@ -1,1 +1,22 @@
 @import "main.scss";
+
+.client-logo {
+    transition: 1s ease;
+    width: 100%;
+    margin: 5vh 0;
+
+    &-link:hover {
+        background: white;
+        transition: 1s ease;
+        border-radius: 5px;
+    }
+}
+
+.pb-10-rem {
+    padding-bottom: 10rem;
+}
+
+.bg-shape-section-no-bg {
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}

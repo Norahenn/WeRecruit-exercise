@@ -1,0 +1,66 @@
+.btn {
+    &-outlined {
+        &-rounded {
+            &-white {
+                transition: none;
+                border: 1.5px solid white;
+                border-radius: 40px;
+                color: white !important;
+
+                &:hover {
+                    cursor: pointer;
+                    transition: 0.15s;
+                    background: white;
+                    border: 1.5px solid white;
+
+                    * {
+                        background: $linear-vertical-blue-gradient;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+                }
+            }
+
+            &-blue {
+                border: 1.5px solid $dark-blue;
+                border-radius: 40px;
+                color: $dark-blue;
+
+                img {
+                    width: 20px;
+                }
+            }
+
+            &-gradient {
+                &-blue {
+                    border-radius: 40px;
+                    border: solid 1.5px transparent;
+                    background-image: linear-gradient(180deg, $translucid-blue 0%, $dark-blue 100%);
+                    background-origin: border-box;
+                    box-shadow: 500px 0 0 #fff inset;
+
+                    &:hover {
+                        transition-duration: 0.25s;
+                        box-shadow: none;
+                        text-shadow: 0 0 0 white;
+                    }
+                }
+            }
+        }
+    }
+
+    &-gradient {
+        &-blue {
+            background: $linear-horizontal-blue-gradient;
+            background-origin: border-box;
+            border-radius: 40px;
+        }
+    }
+
+    &-green {
+        color: $green !important;
+        border-color: $green;
+        border-radius: 40px;
+        border: solid 1px $green;
+    }
+}

@@ -1,0 +1,16 @@
+// Solid
+$dark-blue: #4667A9;
+$blue: #5AA0D8;
+$light-gray: #A4A4A4;
+$lightish-gray: #7C7C7C;
+$gray: #646464;
+$dark-gray: #4A4347;
+$green: #28E590;
+
+// Translucid
+$translucid-light-blue: rgba(163, 237, 254, 0.5);
+$translucid-blue: rgba(63, 193, 222, 0.5);
+
+// Gradients
+$linear-vertical-blue-gradient: linear-gradient(180deg, $translucid-blue 0%, $dark-blue 100%);
+$linear-horizontal-blue-gradient : linear-gradient(90deg, $translucid-blue 0%, $dark-blue 100%);

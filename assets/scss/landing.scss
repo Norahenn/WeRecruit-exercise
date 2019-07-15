@@ -1,14 +1,130 @@
 @import "main.scss";
 
-//Backgrounds
-.blue-shapes-bg{
-    width: 100%;
-    // background: url(./assets/images/Landing_background.svg);
-    background: url(../images/Landing_background.svg) no-repeat;
-    background-size: cover;
-    
+.illustration {
+    @media only screen and (max-width: 800px) {
+        display: none;
+    }
+
+    z-index: -5;
+
+    &-prices {
+        position: absolute;
+    }
+
+    &-left {
+        height: 50vh;
+        width: 60%;
+    }
 }
 
-.w-5vw{
-    width: 10rem;
+.owl-stage {
+    overflow: hidden;
+    padding-bottom: 15%;
+}
+
+#testimonials {
+    figure.testimonial-card {
+        width: 400px;
+
+        @media only screen and (max-width: 800px) {
+            width: 310px;
+        }
+
+        blockquote {
+            text-align: justify;
+            height: 250px;
+            margin: 0;
+            border-radius: 8px;
+            position: relative;
+            background-color: #fff;
+            padding: 65px 50px 35px 50px;
+            font-size: 14px;
+            margin: -40px 0 0;
+            box-shadow: none;
+            line-height: 2;
+            overflow: hidden;
+
+            &:before,
+            &:after {
+                content: "\201C";
+                position: absolute;
+                font-size: 60px;
+                opacity: .3;
+                font-style: normal
+            }
+
+            &:before {
+                top: 0;
+                left: 2%
+            }
+
+            &:after {
+                content: "\201D";
+                right: 2%;
+                top: 70%;
+                padding: 0;
+            }
+        }
+
+        .author {
+            margin: 0;
+            height: 80px;
+            display: block;
+            text-align: left;
+            padding: 0 35px;
+            position: relative;
+            z-index: 1;
+
+            p.special-h5,
+            span {
+                left: 31%;
+                position: absolute;
+                opacity: .8;
+                padding: 3px 5px
+            }
+
+            p.special-h5 {
+                text-transform: uppercase;
+                bottom: 50%;
+                margin: 0;
+                font-weight: 600;
+                color: white;
+            }
+
+            span {
+                font-size: 14px;
+                top: 50%;
+                font-weight: 400
+            }
+
+            img {
+                width: 80px;
+
+                @media only screen and (max-width: 800px) {
+                    width: 65px;
+                    padding-right: 5px;
+                }
+            }
+        }
+    }
+}
+
+#testimonials-carousel .item {
+    margin: 0 5px !important
+}
+
+.check {
+    width: 25px;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+
+    * {
+        width: 100%;
+        min-width: 880px;
+    }
 }
